@@ -10,19 +10,73 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> Swiss Place</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Gallery</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div class="container my-5">
-        <div class="p-5 mb-4 bg-light rounded-3">
+        <div class=" hero p-5 mb-4">
             <div class="container-fluid py-5">
                 <h1 class="display-3 fw-bold">The Matterhorn</h1>
-                <p class="col-md-8 fs-4">Switzerland's most famous peak, rising 4,478 meters above sea level.</p>
+                <p class="col-md-8 fs-4">Switzerland's most famous peak, rising, <strong>478 meters above sea
+                        level</strong></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-8">
-                <h2>About the Matterhorn</h2>
-
-                <h3 class="mt-4">Photo Gallery</h3>
+                <div class="h4 fw-normal text-justify">
+                    The Matterhorn is arguably the most recognizable mountain in the world, renowned for its almost
+                    perfectly symmetrical, pyramidal shape.
+                    Towering at 4,478 meters (14,692 ft), it stands as an indelible emblem of the Swiss Alps, straddling
+                    the border between Switzerland and Italy.
+                    The legendary, car-free village of Zermatt, nestled in the Matter Valley, serves as the exclusive
+                    Swiss base for all Matterhorn adventures.
+                    <hr>
+                    The Matterhorn was the last major peak of the Alps to be conquered, holding out until July 14, 1865.
+                    On that day, a team led by the British explorer Edward Whymper successfully completed the first
+                    ascent via the Hörnli ridge.
+                    However, triumph quickly turned to tragedy when four of the seven climbers fell to their deaths on
+                    the descent after a rope snapped.
+                    This disaster gained worldwide attention, instantly transforming Zermatt from a remote farming
+                    community into a global center for tourism and alpine history.
+                    The story is preserved today in the Matterhorn Museum - Zermatlantis.
+                    <hr>
+                    The Matterhorn region offers unparalleled natural beauty and accessible alpine adventure. Its unique
+                    silhouette makes it the most photographed mountain globally, with famous views often including its
+                    reflection in the Riffelsee lake.
+                    <br><br>
+                    Visitors can access spectacular viewpoints without climbing:
+                    <ul class=" list mt-3">
+                        <li>
+                            <strong>Gornergrat Bahn:</strong> A scenic cogwheel railway leading to the Gornergrat ridge
+                            (3,089m)
+                            for panoramic views of the Matterhorn and dozens of other surrounding 4,000-meter peaks.
+                        </li>
+                        <li class="mt-2">
+                            <strong>Matterhorn Glacier Paradise:</strong> Europe's highest 3S cableway takes guests up
+                            to 3,883m
+                            for close-up glacier views and year-round snow activities.
+                        </li>
+                    </ul>
+                    <br>
+                    The preserved charm of the quiet, car-free Zermatt village enhances the experience, offering a
+                    relaxing and
+                    historically rich base for exploring the monumental surroundings.
+                </div>
             </div>
 
             <div class="col-lg-4">
@@ -33,7 +87,43 @@
                     <li class="list-group-item">Best Viewpoint: Gornergrat</li>
                 </ul>
             </div>
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleAutoplaying" class="carousel slide mt-4" data-bs-ride="carousel">
+
+                        <br>
+                        <h1 class="fw-bold text-center mb-3">Gallery</h1>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRjQWuDBZh74Ie-2w9t3mOQJoYTCk031ftT0-ia7OmJtugywlvlT4sTHSWIrbMCyVBQivrEgfSjUMGY4jArN2NUo3Y&s=19"
+                                    class="d-block w-100" alt="view1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx6SBcZsSwWv2biezoutS9nRasJ5RCFIg0ZU6d4c6AeMePPgp4lB5b6IdUxzMRYkDN8je0wLSCZHYLONk2elbelnh2KnZQaVMpGuoJA6vRTs5Zt1IgXI2HrGXaW3KNUbPq9iWtXHX0KJt6g=w675-h390-n-k-no"
+                                    class="d-block w-100" alt="view 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtsDMoj5ft9IE61Z4zkxJdWHFzxqVi2sY8lh3O_DfZCPFYK23R9zZQ3CNsMcYI9Z-X6s0GgKAODjuyVGpgq-Fyp4FBQaJzu0HTQfK3lTgN9HWHt1AfpNZUrdAFeGCf-s4JFjjUb0RgUhrk=w675-h390-n-k-no"
+                                    class="d-block w-100" alt="view 3">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
